@@ -115,11 +115,11 @@
     margin-left: -15px;
 }
 .dropdown_menu{
-    display: black;
+    display: ;
     position: absolute;
     left: 0%;
     top: 100%;
-    background-color: black;
+    background-color: ;
 }
 .dropdown_menu ul{
     display: block;
@@ -131,7 +131,7 @@
 
 }
 .dropbtn {
-  background-color: black;
+  background-color: ;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -147,27 +147,27 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: black;
+  background-color: ;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.0);
   z-index: 0;
 }
 
 .dropdown-content a {
-  color: black;
+  color: ;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: darkblue;}
+.dropdown-content a:hover {background-color: rebeccapurple;}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: black;
+  background-color: ;
 }
  div.gallery {
   margin: 5px;
@@ -194,6 +194,13 @@ div.desc {
   color: white;
   font-family: sans-serif;
 }
+.bulalo h2{
+    color:silver;
+ }   
+.bulalo p {
+
+ color: skyblue;
+}
 .row{
     display: flex;
     align-items: center;
@@ -210,3 +217,17 @@ div.desc {
      border: 6px;
      overflow: hidden;  
   }
+
+.tutorial{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%);
+    text-align: center;
+    color: white;
+}
+.tutorial h6{
+    font-size: 50px;
+    margin-top: 80px;
+} 
+ 
